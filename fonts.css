@@ -1,0 +1,32 @@
+/** font **/
+@font-face {
+  font-family: "latobold";
+  src: url("./polices/Lato-Bold.woff2") format("woff2"),
+    url("./polices/Lato-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "latoitalic";
+  src: url("./polices/Lato-Italic.woff2") format("woff2"),
+    url("./polices/Lato-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "latoregular";
+  src: url("./polices/Lato-Regular.woff2") format("woff2"),
+    url("./polices/Lato-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "medula_oneregular";
+  src: url("./polices/MedulaOne-Regular.woff2") format("woff2"),
+    url("./polices/MedulaOne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts.css" />
+    <link rel="stylesheet" href="./css.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <script src="./javascript.js"></script>
+    <title>M. Jourden</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mathilde Jourden</h1>
+      <h2>Student Portfolio</h2>
+      <span>Nevers France ; willing to relocate anywhere, anytime ! </span>
+      <div class="container">
+        <input
+          class="container_toggle"
+          type="checkbox"
+          id="switch"
+          name="mode"
+        />
+        <label for="switch">Toggle</label>
+      </div>      </header>
+        <div id="section1"><div class="gcontainer1">
+          <div class="block-1">
+            <div class="glass-morphism-container1">
+                <p>
+                    <h3>{ About me </h3>
+                    Hello! I am Mathilde, a French web developer student with a strong passion for front-end development, accessibility, and UI/UX design! I am still working on my skills, and this under construction Portfolio will be filled very soon with the various projects I am working on. As my projects progress, I will frequently update this website, providing a real-time glimpse into my development journey. So, stay tuned to follow my path and see my skills in action!
+                </p>
+            </div></div>
+          <div class="buttons"><div class="glass-morphism-container2">  <button class="button">
+            <div class="pattern">
+              <div class="target inner bg4"></div>
+            </div>
+            <div class="text"></div>
+          </button>
+          <button class="button">
+            <div class="pattern">
+              <div class="target inner bg4"></div>
+            </div>
+            <div class="text"></div>
+          </button>
+          <button class="button">
+            <div class="pattern">
+              <div class="target inner bg4"></div>
+            </div>
+            <div class="text"></div>
+          </button>
+                              
+          </div></div>
+          <div class="block-2"> <div class="glass-morphism-container3">
+            <p>
+              <h3>To do List and Projects }</h3>
+              - <span>Personal project N°1</span> Developing a responsive website for a cat club association based in the French Riviera. The goal is to promote their upcoming cat shows in the area. Client requirements have been gathered, and I'm currently working on selecting colors and designing.
+              <br><span>- Group project N°1</span> Engaging in brainstorming sessions with my fantastic teammates.
+              <br>- <span>Stay excited</span> to learn new things and progress every day!
+          </p>
+  
+          </div></div>
+       <div class="img-deco"></div>
+       </div></div>
+   
+  </body>
+  <script>
+    let checkbox = document.querySelector("input[name=mode]");
+
+    checkbox.addEventListener("change", function () {
+      if (this.checked) {
+        trans();
+        document.documentElement.setAttribute("data-theme", "dark");
+      } else {
+        trans();
+        document.documentElement.setAttribute("data-theme", "light");
+      }
+    });
+
+    let trans = () => {
+      document.documentElement.classList.add("transition");
+      window.setTimeout(() => {
+        document.documentElement.classList.remove("transition");
+      }, 50);
+    };
+
+    
+  </script>
+</html>

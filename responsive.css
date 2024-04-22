@@ -1,0 +1,20 @@
+/* Media Query pour les smartphones */
+@media only screen and (max-width: 767px) {
+  .glass-morphism-container1 {
+    padding: 20px; /* Adapter le padding pour les petits écrans */
+    max-width: none; /* Supprimer la limitation de la largeur maximale */
+    width: calc(
+      100% - 40px
+    ); /* Définir la largeur en fonction de l'écran moins les marges */
+    margin: 20px; /* Ajouter des marges pour un meilleur espacement sur les petits écrans */
+  }
+
+  .glass-morphism-container3 {
+    padding: 20px; /* Adapter le padding pour les petits écrans */
+    max-width: none; /* Supprimer la limitation de la largeur maximale */
+    width: calc(
+      100% - 40px
+    ); /* Définir la largeur en fonction de l'écran moins les marges */
+    margin: 20px; /* Ajouter des marges pour un meilleur espacement sur les petits écrans */
+  }
+}
